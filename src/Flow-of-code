@@ -1,0 +1,5 @@
+step1>>In index.js we are rendering APP.js
+Step2>>In App.js we are rendering HOCDemo.js
+Step3>> Inside HOCDemo we are returning Clickcounter.js
+we know that'"-HOC are function based components which takes component as argument and return component with added features."
+step4>>Clickcounter is component
