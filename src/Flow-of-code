@@ -1,5 +1,16 @@
 step1>>In index.js we are rendering APP.js
 Step2>>In App.js we are rendering HOCDemo.js
 Step3>> Inside HOCDemo we are returning Clickcounter.js
-we know that'"-HOC are function based components which takes component as argument and return component with added features."
 step4>>Clickcounter is component
+we are passing Clickcounter as agrument to IncrementAge
+NOTE:we know that'"-HOC are function based components which takes component as argument and return component with added features."
+
+Step5: Increment age is function component
+We had already two arguments inside IncrementAge (Clickcounter,5)
+
+step6:Inside IncrementAge CompArgument=Clickcounter,iCustomValue=5) compare from
+Clickcounter.js last line
+
+because IncrementAge is component so we have its render which returns  React Fragment,
+React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
+
