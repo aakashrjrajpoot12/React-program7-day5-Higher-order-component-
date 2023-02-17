@@ -12,5 +12,5 @@ step6:Inside IncrementAge CompArgument=Clickcounter,iCustomValue=5) compare from
 Clickcounter.js last line
 
 because IncrementAge is component so we have its render which returns  React Fragment,
-React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
-
+**React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
+** div (no need to create an extra DOM node)

@@ -9,6 +9,7 @@ class Clickcounter extends React.Component{
           </button>
         </React.Fragment>
         //React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
+        // div (no need to create an extra DOM node)
     );
   }
 }
