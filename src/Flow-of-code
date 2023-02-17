@@ -8,10 +8,17 @@ NOTE:we know that'"-HOC are function based components which takes component as a
 Step5: Increment age is function component
 We had already two arguments inside IncrementAge (Clickcounter,5)
 
-step6:Inside IncrementAge CompArgument=Clickcounter,iCustomValue=5) compare from
+step6:Inside IncrementAge (CompArgument=Clickcounter,iCustomValue=5)) compare from
 Clickcounter.js last line
 
 because IncrementAge is component so we have its render which returns  React Fragment,
 **React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
 ** 
 React Fragments is faster and more space-efficient as compared to an extra div (no need to create an extra DOM node). 
+
+
+Step7>>Inside MoveOverEvent.js    (CompArgument=MoveOverEvent,iCustomValue=5) 
+
+
+
+

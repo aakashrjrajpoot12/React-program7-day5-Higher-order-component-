@@ -12,6 +12,8 @@ function IncrementAge(CompArgument,iCustomValue){
         <React.Fragement>
           <CompArgument myAge={this.state.iAge} increaseAge={()=>this.beingEligble()}/>
            </React.Fragement>
+           //Here CompArgument=Clickcounter,iCustomValue=5) compare from Clickcounter.js last line
+
       );
     }
   }
