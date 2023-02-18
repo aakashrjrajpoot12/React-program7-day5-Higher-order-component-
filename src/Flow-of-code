@@ -20,6 +20,7 @@ React Fragments is faster and more space-efficient as compared to an extra div (
 Step7>>Inside MoveOverEvent.js    (CompArgument=MoveOverEvent,iCustomValue=5) 
 
 
-NOTE:In our program IncrementAge.js is Higer order Component(HOC)
+NOTE:In our program IncrementAge.js is Higher order Component(HOC),
+HOCDemo is file where we had composed diffeent components
 ..................................................................
 
