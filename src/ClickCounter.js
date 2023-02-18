@@ -1,10 +1,11 @@
 import React from 'react';
 import IncrementAge from './IncrementAge';
-class Clickcounter extends React.Component {
+
+class ClickCounter extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <button onclick={() => {this.props.increaseAge()}}>
+        <button onClick={() => this.props.increaseAge()}>
           My Age {this.props.myAge}
         </button>
       </React.Fragment>
@@ -13,4 +14,4 @@ class Clickcounter extends React.Component {
     );
   }
 }
-export default IncrementAge(Clickcounter, 5);
+export default IncrementAge(ClickCounter, 5);

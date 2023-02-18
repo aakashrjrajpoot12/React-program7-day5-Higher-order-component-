@@ -6,7 +6,8 @@ import IncrementAge from './IncrementAge';
       return(
         <React.Fragement>
           <p onMouseOver={()=> this.props.increaseAge()}>
-            I am becoming Eligible{this.props.myAge} </p>
+            I am becoming Eligible{this.props.myAge} 
+            </p>
            </React.Fragement>
            //Here CompArgument=Clickcounter,iCustomValue=5) compare from Clickcounter.js last line
 
